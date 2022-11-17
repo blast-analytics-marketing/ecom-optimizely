@@ -41,6 +41,7 @@ class MyDocument extends Document {
           <meta property="twitter:image" content="https://cdn.chec.io/email/assets/marketing/demo-preview.png" />
           <meta property="twitter:description" content="High quality Blast Analytics merchandise delivered straight to your door!" />
           <meta name="twitter:card" content="summary_large_image" />
+          <script src={process.env.OPT_URL}></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
