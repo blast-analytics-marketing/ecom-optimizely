@@ -1,5 +1,5 @@
 {
-  "extends": "next/core-web-vitals",
+  "extends": "next",
   "rules": {
     "curly": "error",
     "quotes": ["error", "single"]
